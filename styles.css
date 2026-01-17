@@ -94,13 +94,14 @@ nav a {
 
 .banner-img {
     width: 50%;
-    background: url('images/Circle\ design.svg');
+}
+
+.banner-bg-image{
+ background: url('images/Circle\ design.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
-
-
 
 /* responsive style */
 /* mobile responsive */
