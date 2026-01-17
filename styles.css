@@ -106,7 +106,18 @@ nav a {
 .logo img{
     padding: 0px 30px;
 }
-
+/* products section */
+.products-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    
+}
+.card{
+    padding:25px 0px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px  40px rgba(0, 0, 0, 0.15);
+}
 
 
 /* responsive style */
