@@ -33,7 +33,7 @@
     color: rgba(255, 255, 255, 1);
 }
 /* navbar */
-.nav-info{
+.nav-info, .nav-mobile{
     justify-content: space-between;
     align-items: center;
     padding: 40px 10px;
@@ -49,4 +49,20 @@ nav a{
     list-style: none;
     gap: 30px;
     font-weight: 600;
+}
+
+
+/* responsive style */
+/* mobile responsive */
+@media screen and (max-width: 576px){
+    /* navbar */
+    .nav-info{
+    display: none;
+}
+.mobile-nav{
+display: block;
+}
+ .nav-mobile{
+    padding: 20px;
+ }
 }
