@@ -130,7 +130,6 @@ nav a {
 }
 .card h4{
     font-size: 1.5rem;
-    font-weight: ;
     color: rgba(0, 0, 0, 0.87);
     padding-bottom: 8px;
 }
@@ -200,13 +199,11 @@ nav a {
     padding: 0px 8px;
 }
 /* products */
-.products-heading{
-    font-size: 1rem;
-    padding: 10px 0px 20px;
-}
 .products-section{
     grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
+    gap: 30px;
 }
-
+.card img{
+    width: 100%;
+}
 }
