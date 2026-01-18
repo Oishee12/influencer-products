@@ -150,6 +150,12 @@ nav a {
     font-weight: 700;
     color: rgba(120, 120, 133, 1);
 }
+.last-line{
+    font-weight: 700;
+    color: rgba(224, 44, 109, 0.87);
+    padding: 40px 0 20px;
+    text-align: right;
+}
 
 
 
