@@ -156,6 +156,14 @@ nav a {
     padding: 40px 0 20px;
     text-align: right;
 }
+/* features section */
+#features-section{
+    flex-direction: row-reverse;
+}
+#features-para{
+     color: rgba(108, 108, 108, 1); 
+     padding-top: 10px;
+}
 
 
 
@@ -211,5 +219,15 @@ nav a {
 }
 .card img{
     width: 100%;
+}
+/* features section */
+#features-section{
+    flex-direction: column-reverse;
+}
+#features-para{
+     padding-top: 2px;
+}
+#features-heading{
+    font-weight: 1rem;
 }
 }
