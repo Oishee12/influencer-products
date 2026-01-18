@@ -107,17 +107,51 @@ nav a {
     padding: 0px 30px;
 }
 /* products section */
+.products-heading{
+    font-size: 1.875rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0px 40px;
+}
 .products-section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    
 }
 .card{
     padding:25px 0px;
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 0px 0px  40px rgba(0, 0, 0, 0.15);
 }
+.card h3{
+    font-size: 1.875rem;
+    font-weight: 500;
+    color: rgba(24, 25, 31, 1);
+}
+.card h4{
+    font-size: 1.5rem;
+    font-weight: ;
+    color: rgba(0, 0, 0, 0.87);
+    padding-bottom: 8px;
+}
+.card h5{
+    color: rgba(251, 130, 0, 1);
+    padding-bottom: 5px;
+    
+}
+.rating{
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: rgba(94, 99, 102, 1);
+    text-align: center;
+    padding-left: 8px;
+}
+.card-para{
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: rgba(120, 120, 133, 1);
+}
+
 
 
 /* responsive style */
@@ -165,4 +199,14 @@ nav a {
 .logo img{
     padding: 0px 8px;
 }
+/* products */
+.products-heading{
+    font-size: 1rem;
+    padding: 10px 0px 20px;
+}
+.products-section{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
 }
